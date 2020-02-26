@@ -1,5 +1,5 @@
 <html>
 <body>
-	<h1 style="color: green; font-size: 40px;" align="center">  RAVI Website</h1>
+	<h1 style="color: RED; font-size: 40px;" align="center"> Welcome to Jenkins </h1>
 </body>
 </html>
