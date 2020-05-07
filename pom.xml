@@ -7,6 +7,17 @@
 	<version>8.2.0</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
+	<plugins>
+    		<plugin>
+        		<artifactId>maven-compiler-plugin</artifactId>
+        		<version>3.1</version>
+        		<configuration>
+           		 <fork>true</fork>
+        		</configuration>
+    		</plugin>
+	</plugins>
+	
+	
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
@@ -45,14 +56,6 @@
 	    </pluginRepository>
 	</pluginRepositories>
 	
-<plugins>
-    <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
-        <configuration>
-            <fork>true</fork>
-        </configuration>
-    </plugin>
-</plugins>
+
 	
 </project>
