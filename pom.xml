@@ -44,12 +44,15 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-	<plugin>
-    		<inherited>true</inherited>
-    		<groupId>org.apache.maven.plugins</groupId>
-    		<artifactId>maven-compiler-plugin</artifactId>              
-	</plugin
 	
-
+<plugins>
+    <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+            <fork>true</fork>
+        </configuration>
+    </plugin>
+</plugins>
 	
 </project>
