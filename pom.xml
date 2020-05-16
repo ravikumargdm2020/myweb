@@ -26,15 +26,15 @@
 	</dependencies>
 	
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>anilrepo</id>
-		    <url>http://192.168.135.1:8081/nexus/content/repositories/anilsnaprepo/</url>
-		 </snapshotRepository>
+		  <snapshotRepository>
+   		  <id>anilsnaprepo</id>
+    		 <url>http://192.168.135.1:8081/nexus/content/repositories/anilsnaprepo</url>
+  		 </snapshotRepository>
 		
 		<repository>
-		    <id>anilsnarepo</id>
-		    <url>http://192.168.135.1:8081/nexus/content/repositories/anilrepo/</url>
-		</repository>
+   		 <id>anilrepo</id>
+    		<url>http://192.168.135.1:8081/nexus/content/repositories/anilrepo</url>
+  		</repository>
   	</distributionManagement>
 	
 	<pluginRepositories>
