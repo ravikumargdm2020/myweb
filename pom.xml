@@ -27,12 +27,12 @@
 	
 	<distributionManagement>
 		  <snapshotRepository>
-   		  <id>sample-snapshots</id>
+   		  <id>nexusRepo</id>
     		 <url>http://13.127.87.14:8081/repository/sample-snapshots/</url>
   		 </snapshotRepository>
 		
 		<repository>
-   		 <id>sample-relases</id>
+   		 <id>nexusRepo</id>
     		<url>http://13.127.87.14:8081/repository/sample-relases/</url>
   		</repository>
   	</distributionManagement>
