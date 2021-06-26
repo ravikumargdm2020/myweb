@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git checkout') {
+            steps {
+                git 'https://github.com/ravikumargdm2020/myweb.git'
+            }
+        }
+    }
+}
