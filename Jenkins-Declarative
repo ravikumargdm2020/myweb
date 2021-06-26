@@ -1,11 +1,19 @@
 pipeline {
     agent any
 
+   environment{
+        PATH="/usr/bin:$PATH"
+   }
     stages {
         stage('Git checkout') {
             steps {
                 git 'https://github.com/ravikumargdm2020/myweb.git'
             }
+        }
+        stage('Mvn Build'){
+         steps{
+             sh "mvn clean package"
+         }
         }
     }
 }
